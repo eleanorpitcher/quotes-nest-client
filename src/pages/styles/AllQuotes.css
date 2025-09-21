@@ -1,0 +1,31 @@
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 16px; /* spacing between cards */
+  padding: 16px;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  gap: 50px;
+  padding: 100px;
+}
+
+.tagsList {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.overflow-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+}
